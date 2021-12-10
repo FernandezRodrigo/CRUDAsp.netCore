@@ -1,0 +1,40 @@
+﻿@{
+    ViewData["Title"] = "To Do List";
+}
+
+<h3 class="fw-bold text-white">Sample To Do List</h3>
+<div class="division">
+</div>
+<div>
+    <div>
+        <input type="text" class="form-control input" placeholder="Write your task title here..." aria-label="Title" aria-describedby="addon-wrapping">
+        <input type="text" class="form-control input" placeholder="Write down here the task description..." aria-label="Description" aria-describedby="addon-wrapping">
+        <button type="button" class="btn btn-light input">Create task</button>
+    </div>
+    <table class="table">
+  <thead>
+    <tr>
+      <th scope="col">State</th>
+      <th scope="col">Title</th>
+      <th scope="col">Description</th>
+      <th scope="col">Edit/Delete</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row"><input class="form-check-input mt-0" type="checkbox" value="" aria-label="Checkbox for following text input"></th>
+      <td>Sample task 1</p></td>
+      <td><p class="fst-italic text-muted">Sample description for task 1</p></td>
+      <td><a href="#" class="text-decoration-none">Edit </a><a href="#" class="text-decoration-none"> Delete</a></td>
+    </tr>
+    <tr>
+      <th scope="row"><input class="form-check-input mt-0" type="checkbox" value="" aria-label="Checkbox for following text input"></th>
+      <td><p>Sample task 2</p></td>
+      <td><p class="fst-italic text-muted">Sample description for task 2</p></td>
+      <td><a href="#" class="text-decoration-none">Edit </a><a href="#" class="text-decoration-none"> Delete</a></td>
+    </tr>
+  </tbody>
+</table>
+</div>
+<div class="division">
+</div>

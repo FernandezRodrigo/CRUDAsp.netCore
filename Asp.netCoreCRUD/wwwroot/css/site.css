@@ -1,0 +1,40 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+  background-color: #ff5e36;
+}
+
+.division{
+    background-color: #ffffff;
+    height: 3px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+text-white {
+    background-color: #ffffff;
+}
+
+.table{
+    background-color: #ffffff;
+    border-radius: 10px;
+}
+
+.input {
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
